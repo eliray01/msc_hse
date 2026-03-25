@@ -1,2 +1,16 @@
 *.md
 data/
+.ipynb_checkpoints/
+__pycache__/
+*.pt
+context_md
+.DS_Store
+.venv/
+.vscode/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.gitignore
+.gitignore
+plots_delta/
+plots_full/
