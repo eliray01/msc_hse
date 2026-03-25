@@ -182,14 +182,14 @@
 
 | Authors (FNO) | Best delta model: Delta_32_4 | Best full-frame model: Full_64_4 |
 | --- | --- | --- |
-| ![](plot_gifs_out/plots_delta/authors_model/traj000_density_pretrained_delta/sequence.gif) | ![](plot_gifs_out/plots_delta/delta_32_4/traj000_density_delta_last_delta_model/sequence.gif) | ![](plot_gifs_out/plots_full/full_64_4/traj000_density_full_final_model_full_frame/sequence.gif) |
+| ![](plot_gifs_out/plots_delta_gifs/authors_model/traj000_density_pretrained_delta/sequence.gif) | ![](plot_gifs_out/plots_delta_gifs/delta_32_4/traj000_density_delta_last_delta_model/sequence.gif) | ![](plot_gifs_out/plots_full_gifs/full_64_4/traj000_density_full_final_model_full_frame/sequence.gif) |
 
 Дополнительно сохранены GIF для остальных конфигураций:
 
-- `plot_gifs_out/plots_delta/delta_16_4/traj000_density_delta_best_by_valid_rollout_vrmse_delta/sequence.gif`
-- `plot_gifs_out/plots_full/full_16_4/traj000_density_full_best_by_valid_rollout_vrmse/sequence.gif`
-- `plot_gifs_out/plots_full/full_32_4/traj000_density_full_final_model_full_frame/sequence.gif`
-- `plot_gifs_out/plots_full/full_32_5/traj000_density_full_final_model_full_frame/sequence.gif`
+- `plot_gifs_out/plots_delta_gifs/delta_16_4/traj000_density_delta_best_by_valid_rollout_vrmse_delta/sequence.gif`
+- `plot_gifs_out/plots_full_gifs/full_16_4/traj000_density_full_best_by_valid_rollout_vrmse/sequence.gif`
+- `plot_gifs_out/plots_full_gifs/full_32_4/traj000_density_full_final_model_full_frame/sequence.gif`
+- `plot_gifs_out/plots_full_gifs/full_32_5/traj000_density_full_final_model_full_frame/sequence.gif`
 
 ## Основной вывод
 
