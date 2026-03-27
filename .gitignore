@@ -17,3 +17,4 @@ __pycache__/
 *.pt
 plots_delta/
 plots_full/
+.sh
