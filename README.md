@@ -227,21 +227,17 @@
 
 ### FNO модели
 
-
 | Baseline (FNO) | Delta_32_4 | Delta_64_4 | Full_64_4 |
-| -------------- | ---------- | ---------- | --------- |
-|                |            |            |           |
-
+| --- | --- | --- | --- |
+| ![](plot_gifs_out/FNO/delta_gifs/baseline_model/traj000_density_pretrained_delta/sequence.gif) | ![](plot_gifs_out/FNO/delta_gifs/delta_32_4/traj000_density_delta_last_delta_model/sequence.gif) | ![](plot_gifs_out/FNO/delta_gifs/delta_64_4/traj000_density_delta_final_model_delta/sequence.gif) | ![](plot_gifs_out/FNO/full_gifs/full_64_4/traj000_density_full_final_model_full_frame/sequence.gif) |
 
 Дополнительные GIF для FNO: `plot_gifs_out/FNO/delta_gifs/` и `plot_gifs_out/FNO/full_gifs/`
 
 ### ConvNextU-Net модели
 
-
 | ConvNextU-Net_4_2_1_42_7 | ConvNextU-Net_4_2_1_48_7 | ConvNextU-Net_delta_4_2_1_42_7 |
-| ------------------------ | ------------------------ | ------------------------------ |
-|                          |                          |                                |
-
+| --- | --- | --- |
+| ![](plot_gifs_out/U-net/full_gifs/unet_full_4_2_1_42_7/traj000_density_cnextunet_full_best_cnextunet_by_valid_rollout_vrmse/sequence.gif) | ![](plot_gifs_out/U-net/full_gifs/unet_full_4_2_1_48_7/traj000_density_cnextunet_full_best_cnextunet_by_valid_rollout_vrmse/sequence.gif) | ![](plot_gifs_out/U-net/delta_gifs/unet_delta_4_2_1_42_7/traj000_density_cnextunet_delta_best_cnextunet_delta_by_valid_rollout_vrmse/sequence.gif) |
 
 Дополнительные GIF для U-Net: `plot_gifs_out/U-net/delta_gifs/` и `plot_gifs_out/U-net/full_gifs/`
 
