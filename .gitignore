@@ -15,6 +15,6 @@ __pycache__/
 *.pdf
 
 *.pt
-plots_delta/
-plots_full/
+U-net_plots/
+FNO_plots/
 .sh

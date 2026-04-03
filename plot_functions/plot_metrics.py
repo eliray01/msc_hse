@@ -27,7 +27,7 @@ def _f(row: dict[str, str], key: str) -> float:
         return float("nan")
 
 
-def save_epoch_metrics_figure(csv_path: str, epoch: int, out_dir: str) -> None:
+def save_epoch_metrics_figure(csv_path: str, epoch: int, out_dir: str, model_name: str) -> None:
     rows = _read_metrics(csv_path)
     if not rows:
         return
@@ -46,7 +46,7 @@ def save_epoch_metrics_figure(csv_path: str, epoch: int, out_dir: str) -> None:
     vr_sqrt_sum = [_f(r, "valid_rollout_sqrt_sum_mse_over_sum_var") for r in rows]
 
     fig, axes = plt.subplots(2, 1, figsize=(10, 7), sharex=True)
-    fig.suptitle(f"Delta FNO metrics (through epoch {int(epoch)})", fontsize=12)
+    fig.suptitle(f"Delta {model_name} metrics (through epoch {int(epoch)})", fontsize=12)
 
     ax0 = axes[0]
     ax0.plot(ep, train_total, label="train total", color="#1f77b4")

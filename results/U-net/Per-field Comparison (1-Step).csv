@@ -1,0 +1,4 @@
+Model,Field 1,Field 2,Field 3,Field 4
+ConvNextU-Net_4_2_1_42_7,0.1092,0.2727,0.2423,0.2644
+ConvNextU-Net_4_2_1_48_7,0.1021,0.2714,0.2371,0.2587
+ConvNextU-Net_delta_4_2_1_42_7,0.1083,0.319,0.2703,0.2987
